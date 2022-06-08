@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useState } from 'react';
 
 export default function Home() {
   const videoRef = useRef();
@@ -74,4 +74,4 @@ export default function Home() {
       }
     </div>
   )
-}
+};
